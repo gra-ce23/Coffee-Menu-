@@ -1,0 +1,82 @@
+ /* types of css selectors: type, class, pseudo */
+h1,h2,p{
+    text-align: center;
+}
+ /* up:fallback font */
+.established{
+    font-style: italic;
+}
+h1{
+    font-family: Impact, serif;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+h2{
+    font-family: Impact, serif;
+    font-size: 40px;
+    margin-bottom:1px
+}
+hr{
+    background-color: brown;
+    height: 2px;
+    border-color: brown;
+
+}
+body{
+    background-image: url("beans.jpg");
+    font-family: sans-serif;
+    padding: 20px;
+}
+.menu{
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+.flavor, .dessert{
+    text-align: left;
+    width: 75%;
+  }
+.price{
+    text-align: right;
+    width: 25%;
+}
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size:18px
+}
+.bottom-line{
+    margin-top: 25px;
+}
+ /* FOOTER */
+footer{
+    font-size: 14px;
+}
+a{
+    color: black;
+}
+ /* <!--You change properties of a link when the link has actually been visited by using a pseudo-selector that looks like a:visited { propertyName: propertyValue; }--> */
+
+a:visited{
+    color: black;
+}
+a:hover{
+    color: brown;
+}
+a:active{
+    color: brown;
+}
+.address{
+    margin-bottom: 5px;
+}
